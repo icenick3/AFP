@@ -1,0 +1,127 @@
+<?php
+
+$name = $_GET['fbclid'];
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="menu">
+            <img src="./images/menu.svg" alt="">
+        </div>
+        <div class="logo">
+            <img src="./images/logo-afp.svg" alt="">
+        </div>
+        <div class="country">
+            FR
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Résultat de la recherche">
+        <img src="./images/search.svg" alt="">
+    </div>
+    <div class="title_block">
+        <div class="landing_page">
+            <h2>Nouvelles de l'APF</h2>
+
+            <p>
+            <span>
+              C'est désormais officiel : les scientifiques ont mis au point un test de prédisposition à la démence.
+            </span>
+            </p>
+        </div>
+        <a href="{offer}&fbclid=<?php echo $name ?>"><span>Passer le test</span></a>
+    </div>
+    <div class="text">
+        <p>
+            La démence est une maladie qui peut affecter de manière significative la qualité de vie des personnes
+            atteintes, de leurs proches et des personnes qui les soignent. Il s'agit d'un trouble neurologique qui
+            entraîne un déclin cognitif, notamment de la mémoire, de l'attention, de la pensée, de la parole et de
+            l'orientation spatiale, conduisant finalement à une perte de la capacité à se prendre en charge et à
+            nécessiter des soins.
+            <br>
+            <br>
+            L'un des principaux défis associés à la démence est que ses premiers signes peuvent être difficiles à
+            identifier jusqu'à ce que la maladie commence à progresser. Cela signifie que des personnes peuvent vivre
+            avec une démence pendant des années avant que leurs proches n'en perçoivent les premiers symptômes.
+        </p>
+    </div>
+    <a class="button" href="{offer}&fbclid=<?php echo $name ?>"><span>Passer le test</span></a>
+    <div class="text second">
+        <p>
+            Cependant, un nouveau test pourrait permettre de détecter le risque de démence dès les premiers stades.
+            L'étude, publiée dans la revue JAMA Neurology, décrit un test qui permet d'évaluer rapidement si une
+            personne est susceptible de développer une démence.
+            <br>
+            <br>
+            Le test comprend 10 questions portant sur différents aspects des performances cognitives. Si une personne
+            répond correctement à 6 questions ou plus, le risque de développer une démence est faible. Si une personne
+            répond correctement à moins de questions, cela peut indiquer un risque accru de développer une démence.
+            <br>
+            <br>
+            Ce test est également capable de déterminer, avec une précision allant jusqu'à 99 %, le niveau de votre QI
+        </p>
+        <a class="button" href="{offer}&fbclid=<?php echo $name ?>" style="margin-left: 0;"><span>Passer le test</span></a>
+        <p>
+            Il est important de noter que ce test n'est pas un outil de diagnostic définitif et qu'il ne peut pas
+            remplacer une évaluation plus approfondie par des médecins. Toutefois, il peut s'avérer utile pour les
+            personnes qui souhaitent évaluer leur risque à un stade précoce et prendre des mesures pour améliorer leur
+            santé afin de prévenir ou de retarder le développement de la démence.
+        </p>
+    </div>
+    <footer>
+        <div class="f_logo">
+            <img src="./images/logo-afp.svg" alt="">
+        </div>
+        <div class="f_title">
+            À propos de l'AFP
+        </div>
+        <p>
+            <span>l'AFP</span> est une agence d’information mondiale, assurant une couverture rapide, complète et
+            vérifiée des événements
+            de l’actualité comme des thèmes qui façonnent notre quotidien. Avec un réseau de journalistes sans égal,
+            déployé sur 151 pays, l'AFP est en outre un leader mondial de l’investigation numérique. Avec 2 400
+            collaborateurs de 100 nationalités différentes, l’AFP couvre le monde en six langues, avec une qualité
+            unique de production multimédia en vidéo, texte, photo et infographie.
+        </p>
+        <div class="f_title" style="margin: 5px 0 16px 0;">
+            Liens pratiques
+        </div>
+        <ul>
+            <li>CGU / Protection des données personnelles / Gestion des cookies</li>
+            <li>Mentions légales</li>
+            <li>Contact</li>
+            <li>Plan du site</li>
+        </ul>
+        <div class="f_title" style="margin: 16px 0 16px 0;">
+            Espace médias
+        </div>
+        <ul>
+            <li>Communiqués de presse</li>
+            <li>Prix et récompenses</li>
+        </ul>
+        <div class="f_title" style="margin: 16px 0 16px 0;">
+            PARTENAIRE
+        </div>
+        <ul>
+            <li style="padding-bottom: 30px;">
+                Business Wire
+            </li>
+        </ul>
+    </footer>
+    <div class="chat">
+        <img src="./images/chat.png" alt="">
+        <div class="round"></div>
+        <div class="round2"></div>
+    </div>
+</div>
+</body>
+</html>
